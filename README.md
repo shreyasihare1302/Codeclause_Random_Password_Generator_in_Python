@@ -7,9 +7,9 @@ The choice() method is one of the most important methods of the random module. T
 # sample() :
 The sample() method is used to obtain a sequence of randomly selected values from the provided input sequence. The sample() method returns a list of unique choices. The sample() method takes two parameters. The first parameter is the original sequence from which the output random sequence has to be generated. The second parameter is the length of the random sample that needs to be generated.
 # Generate a Password Using All Alphanumeric Characters
-Before getting into the implementation of generating random passwords using all alphanumeric characters.
-At the very start, we need to import the random module.
-Create a function generatePassword() that will return a randomly generated password. The generatePassword() function takes one argument i.e. n which denotes the length of the password to be generated.
-Create a string or list consisting of all the alphabets (both small alphabets and capital alphabets), numbers, and symbols.
-Initialize an empty string that will store the randomly selected password.
-At last, we will run a loop from 0 to n. In each iteration, we will randomly choose a character from the list of characters (using the random.choice() method) and add the selected character to the password string. Finally, we will return the password string at the end of the loop.
+# Before getting into the implementation of generating random passwords using all alphanumeric characters.
+# At the very start, we need to import the random module.
+# Create a function generatePassword() that will return a randomly generated password. The generatePassword() function takes one argument i.e. n which denotes the length of the password to be generated.
+# Create a string or list consisting of all the alphabets (both small alphabets and capital alphabets), numbers, and symbols.
+# Initialize an empty string that will store the randomly selected password.
+# At last, we will run a loop from 0 to n. In each iteration, we will randomly choose a character from the list of characters (using the random.choice() method) and add the selected character to the password string. Finally, we will return the password string at the end of the loop.
