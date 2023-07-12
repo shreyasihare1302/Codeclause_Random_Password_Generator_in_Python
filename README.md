@@ -1,4 +1,7 @@
 # Codeclause_Random_Password_Generator_in_Python
+# Title : Random Password Generator in Python
+# Ide Used : Jupyter Notebook
+
 Having a weak password is not good for a system that demands high confidentiality and security of user credentials. It turns out that people find it difficult to make up a strong password that is strong enough to prevent unauthorized users from memorizing it. I will create a mixture of numbers, alphabets, and other symbols found on the computer keyboard to form a 8-character password which is unpredictable and cannot easily be memorized.
 # Requirements
 For developing a random password generator in Python, we will need a good understanding of Python programming like the working of loops, operators, and functions. Along with that, we will be using some data structures like lists, strings, etc. Apart from these, we need to use the random module of Python. The random module in Python provides us with various functions that help us to randomly choose among various values. Some of the most important functions of the random module are randint(), sample(), choice(), seed(), sample(), etc.In this random password generator program, we will be using some of the functions of the random module. 
